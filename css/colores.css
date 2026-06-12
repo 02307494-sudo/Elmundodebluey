@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+
+    background:linear-gradient(
+    to bottom,
+    #6ea8ff,
+    #fff4b8);
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contenedor{
+    width:70%;
+
+    background:#fff8e8;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    border:4px solid #ffd54f;
+	
+}
+.personajes{
+    width:70%;
+
+    background:#fff8e8;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    border:3px solid #ffd54f;
+
+h1{
+    color:#295b9e;
+}
+
+h2{
+    color:#295b9e;
+}
+
+p, li{
+    color:#6b4f3a;
+
+    line-height:1.8;
+}
+
+.foto{
+    width:350px;
+
+    border-radius:20px;
+
+    margin:20px 0;
+
+    transition:0.4s;
+}
+.img{
+    width:200px;
+
+    border-radius:20px;
+
+    margin:20px 0;
+
+    transition:0.4s;
+}
+
+.foto:hover{
+    transform:scale(1.08);
+}
+.img:hover{
+    transform:scale(1.08);
+}
